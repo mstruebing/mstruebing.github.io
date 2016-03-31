@@ -1,7 +1,16 @@
-$(window).scroll(function() {
-  if ($(document).scrollTop() > 50) {
-    $('nav').addClass('shrink');
+var navBar = document.getElementById('nav');
+
+document.addEventListener('scroll', function() {
+  if (window.scrollY > 50) {
+    navBar.classList.add('shrink');
   } else {
-    $('nav').removeClass('shrink');
+    navBar.classList.remove('shrink');
   }
+})
+
+var navButton = document.getElementById('navButton');
+var navBar = document.getElementById('navBar');
+
+navButton.addEventListener('click', function() {
+  navBar.classList.toggle('collapse');
 });
