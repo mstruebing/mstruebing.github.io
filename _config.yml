@@ -30,7 +30,7 @@ force-https: False
 
 lang: "en"
 author: "Max Strübing"
-title: "{ WELCOME }"
+title: "{ WELCOME ~ }"
 description: "This is my blog, have fun here!"
 keywords: "Max, Strübing, mstruebing, coder, php, javascript, linux"
 favicon: "/img/favicon.ico"
@@ -39,7 +39,7 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: ""
 
 background-img: "../img/intro-bg.jpg"
 
