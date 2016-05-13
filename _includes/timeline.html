@@ -19,22 +19,38 @@
 
           <li class="{{ class }}">
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
+              <a href="{{ event.link }}" target="_blank">
+                <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
+              </a>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
                 <h4>{{ event.date }}</h4>
               </div>
               <div class="timeline-body">
-                {{ event.description | markdownify }}
+                <a href="{{ event.link }}" target="_blank">
+                  {{ event.description | markdownify }}
+                </a>
               </div>
             </div>
           </li>
         {% endfor %}
 
-        <li class="timeline-inverted">
+        <li class="timeline">
           <div class="timeline-image">
-            <img class="img-circle img-responsive" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+            <a href="https://www.xing.com/profile/Max_Struebing2?sc_o=mxb_p" target="_blank">
+              <img class="img-circle img-responsive" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+            </a>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>{{ site.timeline-start }}</h4>
+            </div>
+            <div class="timeline-body">
+              <a href="{{ site.timeline-link }}" target="_blank">
+                {{ site.timeline-description | markdownify }}
+              </a>
+            </div>
           </div>
         </li>
       </ul>

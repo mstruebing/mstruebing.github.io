@@ -97,14 +97,24 @@ events:
     description: "apprentice @ Sitegeist media solutions GmbH"
   - image: "/img/timeline/gosign.jpeg"
     date: "January 2015 - March 2015"
+    link: "https://sitegeist.de/"
     description: "intern @ Gosign media. GmbH"
+    link: "https://www.gosign.de/"
   - image: "/img/timeline/freiland.jpg"
     date: "September 2013 - January 2015"
     description: "dual student @ Freiland Netzlösungen GmbH"
+    link: "http://www.freiland.cc/"
+  - image: "/img/timeline/fh-wedel.png"
+    date: "September 2013 - April 2015"
+    description: 'student @ FH-Wedel'
+    link: "http://www.fh-wedel.de/"
 
 # First image of the Timeline
 
 timeline-img: "/img/me.jpg"
+timeline-start: "~2012"
+timeline-link: "https://www.xing.com/profile/Max_Struebing2?sc_o=mxb_p"
+timeline-description: "started coding"
 
 ###########
 # Contact #
@@ -173,4 +183,3 @@ sass:
 gems:
   - jekyll-paginate
   - jemoji
-  - jekyll-minify-html
