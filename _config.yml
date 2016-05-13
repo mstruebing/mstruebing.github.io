@@ -173,4 +173,4 @@ sass:
 gems:
   - jekyll-paginate
   - jemoji
-  - octopress-minify-html
+  - jekyll-minify-html
