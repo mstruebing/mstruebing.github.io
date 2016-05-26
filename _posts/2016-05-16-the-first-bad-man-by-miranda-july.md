@@ -1,14 +1,14 @@
 ---
 layout: post
 section-type: post
-title: The first bad man by Miranda July
+title: The First Bad Man by Miranda July
 category: books
-tags: [ 'books' ]
+tags: [ 'books', 'review' ]
 ---
 
 Hey folks,
 
-I just finished [The first bad man by Miranda July](https://www.goodreads.com/book/show/21412400-the-first-bad-man). :)
+I just finished [The First Bad Man](https://www.goodreads.com/book/show/21412400-the-first-bad-man) by [Miranda July](https://www.goodreads.com/author/show/65678.Miranda_July). :)
 
 I must admit that it is a really great book, one of the best I've ever read.
 I really don't know how often I was thinking `What the fuck?` while I was reading this book, it have to be many times.

@@ -32,7 +32,7 @@ lang: "en"
 author: "Max Strübing"
 title: "{ WELCOME ~ }"
 description: "This is my blog, have fun here!"
-keywords: "Max, Strübing, mstruebing, coder, php, javascript, linux"
+keywords: "Max, Strübing, mstruebing, coder, php, javascript, linux, books, reading, tech"
 favicon: "/img/favicon.ico"
 
 ################
@@ -132,7 +132,7 @@ twitterHandle: "@mstrbng"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Max Strübing is a coder from Germany/Hamburg who loves to learn new things and likes clean code."
+author_blurb: "Max Strübing is a coder from Hamburg/Germany who loves to learn new things, likes clean code and reading."
 author_blurb_image: "/img/me.jpg"
 
 ##################
