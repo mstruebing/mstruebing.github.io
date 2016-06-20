@@ -59,6 +59,10 @@ ZZ - save and quit
 <CTRL> + w + w - change active buffer
 
 :set spell spelllang=en_us - activate spelling check in english
+]s - next wrong spelled word
+[s - previous wrong spelled word
+zg - add word to spellfile
+z= - gives alternatives
 
 -- mixed stuff --
 5j - move 5 lines down
