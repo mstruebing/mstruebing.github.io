@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Vim is nice!
 category: tech
-tags: [ 'editor', 'programming' ]
+tags: [ 'editor', 'unix', 'linux', 'terminal', 'programming' ]
 ---
 
 I've currently started using [vim](http://www.vim.org/) which is really 
