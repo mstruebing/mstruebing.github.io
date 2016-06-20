@@ -53,6 +53,12 @@ vnoremap - visual mode map
 :x - save and quit
 ZZ - save and quit
 
+:e - explore (open files)
+:vsplit file - open file in vertical split
+:split file - open file in horizontal split
+<CTRL> + w + w - change active buffer
+
+:set spell spelllang=en_us - activate spelling check in english
 
 -- mixed stuff --
 5j - move 5 lines down
