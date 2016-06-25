@@ -48,6 +48,8 @@ vnoremap - visual mode map
 
 :s - sed
 
+:r <FILE> - read a file contents into the current buffer
+
 :qa - quit all
 :wqa - save and quit all
 :x - save and quit
