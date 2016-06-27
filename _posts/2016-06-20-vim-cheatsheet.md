@@ -67,6 +67,7 @@ zg - add word to spellfile
 z= - gives alternatives
 
 -- mixed stuff --
+xp - swap characters (delete and paste)
 5j - move 5 lines down
 dd - delete whole line
 yy - yank whole line

@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Writing a simple CLI-tool in Haskell
 category: tech
-tags: [ 'haskell', 'cli', 'progamming' ]
+tags: [ 'haskell', 'cli', 'programming' ]
 ---
 
 Hello folks,
