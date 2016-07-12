@@ -10,6 +10,9 @@ I just finished
 [1984](https://www.goodreads.com/book/show/6753193-nineteen-eighty-four) by 
 [George Orwell](https://www.goodreads.com/author/show/3706.George_Orwell). :)
 
+[![1984 by George
+Orwell](/img/books/1984.jpg)](https://www.goodreads.com/book/show/6753193-nineteen-eighty-four)
+
 I picked up a copy at a garage sale and get this masterpiece for about 50 cents
 along with [Brave New
 World](https://www.goodreads.com/book/show/5129.Brave_New_World) and [Animal
