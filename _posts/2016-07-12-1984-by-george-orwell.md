@@ -19,10 +19,11 @@ World](https://www.goodreads.com/book/show/5129.Brave_New_World) and [Animal
 Farm](https://www.goodreads.com/book/show/7613.Animal_Farm) and [A Portrait of the
 Artist as a Young
 Man](https://www.goodreads.com/book/show/7588.A_Portrait_of_the_Artist_as_a_Young_Man).
-Maybe I wouldn't have read it if this weren't happen.
-This book was first published in 1949 and takes place in the year 1984. So it is
-basically a science fiction critic of the socialism(Ingsoc stands for English 
-Socialism). Other main themes of the book despite socialism are censorship and 
+Maybe I wouldn’t have read it if this hadn't happened.
+This book was first published in 1949 and takes place in the the future year 1984,
+so it is basically a science fiction critique of the ideology of socialism.
+Ingsoc, an shadowy government organization in the novel, is an acronym for English
+Socialism. Other main themes of the book besides socialism are censorship and
 surveillance.
 
 Nice to realize is that some things of what we use today is based on this book.
