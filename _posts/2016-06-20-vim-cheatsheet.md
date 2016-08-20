@@ -75,6 +75,7 @@ cc - change whole line
 ct) - change to )
 dw - delete word
 cw - change word
+ci" - change everything inside quote - also with ( or others
 nnoremap <buffer> <F12> :w<CR>:!gcc -Wall %<CR> - sets F12 in current buffer(useful for filetype plugin) to save file and compile it with gcc
 inoremap ( ()<left>
 <CTRL> + n - auto suggestion even over various buffers
