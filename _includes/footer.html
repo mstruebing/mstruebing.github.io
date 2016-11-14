@@ -14,4 +14,27 @@
 
 <p><br><br><br><br><br><br></p>
 
+<script>
+function loadCSS( href, before, media ){
+"use strict";
+var ss = window.document.createElement( "link" );
+var ref = before || window.document.getElementsByTagName( "script" )[ 0 ];
+ss.rel = "stylesheet";
+ss.href = href;
+ss.media = "only x";
+ref.parentNode.insertBefore( ss, ref );
+setTimeout( function(){
+ss.media = media || "all";
+} );
+}
+
+loadCSS('{{site.baseurl}}/css/grayscale.css');
+loadCSS('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+</script>
+{% if page.section-type == "index" %}
+  <script>
+      loadCSS('{{site.baseurl}}/css/timeline.css');
+  </script>
+{% endif %}
+
 <!-- Footer End -->
