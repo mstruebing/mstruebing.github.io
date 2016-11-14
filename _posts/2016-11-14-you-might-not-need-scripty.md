@@ -8,7 +8,7 @@ tags: [ 'npm', 'javascript', 'nodejs', 'yarn', 'scripty' ]
 
 > Because no one should be shell-scripting inside a JSON file.
 
-That's cool, but why should I use scripty? I could do this well without.  
+That's cool, but why should I use [scripty](https://github.com/testdouble/scripty)? I could do this well without.  
 What is the advantage of another dependency in my project?
 
 Recently I had to work on a project and the build were broken because of an update of scripty. 
