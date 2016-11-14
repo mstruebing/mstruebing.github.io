@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: You might not need scripty
 category: tech
-tags: [ 'npm', 'javascript', 'nodejs', 'yarn', 'scripty' ]
+tags: [ 'npm', 'javascript', 'nodejs', 'yarn', 'scripty', 'programming' ]
 ---
 
 > Because no one should be shell-scripting inside a JSON file.
