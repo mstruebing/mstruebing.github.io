@@ -12,7 +12,7 @@ I just finished
 
 [![The Cartel by Don Winslow](/img/books/the-cartel.jpg)](https://www.goodreads.com/book/show/23602561-the-cartel)
 
-It was published in 2015 and is the great successor of [The Power of The Dog](https://www.goodreads.com/book/show/206236.The_Power_of_the_Dog), which I finished also this year [Blog Post](http://maex.me/books/2016/05/26/the-power-of-the-dog-by-don-winslow.html).
+It was published in 2015 and is the great successor of [The Power of The Dog](https://www.goodreads.com/book/show/206236.The_Power_of_the_Dog), which I finished also this year [Blog Post]({{site.url}}/books/2016/05/26/the-power-of-the-dog-by-don-winslow.html).
 
 The book continues the story about Art Keller, Adan Barrerra and the American/Mexican drug war .  It is a real
 masterpiece and real nice to read. It is full of brutality and I love how real it
