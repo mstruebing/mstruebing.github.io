@@ -37,4 +37,4 @@ Anything else is not modified and I will only modify them within the content ele
 I will edit this post and add a list with every content element I have created.
 
 # Content elements
-- [Link Button Fluid]({{site.url}}/tech/2016/12/01/neos-conent-elements.html)
+- [Link Button Fluid]({{site.url}}/tech/2016/12/01/neos-example-button-fluid.html)
