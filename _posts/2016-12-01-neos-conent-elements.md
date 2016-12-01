@@ -1,15 +1,15 @@
 ---
 layout: post
 section-type: post
-title: Example Neos Content Elements
+title: 'Example Neos Content Elements #0 Introduction'
 category: tech
-tags: [ 'NeosCMS', 'programming', 'tutorial' ]
+tags: [ 'NeosCMS', 'programming', 'tutorial', 'guide' ]
 ---
 
-I have decieded to make tutorials about how to create small neos content elements and for that purpose I have set up a repository
-which you can find [Here](https://github.com/mstruebing/neos-content-elements).
+I have decided to make tutorials about how to create small Neos content elements and for that purpose I have set up a repository
+which you can find [here](https://github.com/mstruebing/neos-content-elements).
 
-I only took the [neos-base-distribution(2.3)](https://github.com/neos/neos-base-distribution) and added a new empty site package.
+I only used the [neos-base-distribution(2.3)](https://github.com/neos/neos-base-distribution) and added a new empty site package.
 
 Then I headed to `/Packages/Sites/MStruebing.ContentElements/Resources/Private/Templates/Page/Default.html`  
 and added these line  
@@ -26,7 +26,7 @@ To the stylesheets section and these lines
 </script>
 ```
 
-to the bodyscript sections.
+to the bodyScript sections.
 
 I also created these two files  
 `/Packages/Sites/MStruebing.ContentElements/Resources/Public/Styles/Main.css`  
@@ -37,3 +37,4 @@ Anything else is not modified and I will only modify them within the content ele
 I will edit this post and add a list with every content element I have created.
 
 # Content elements
+- [Link Button Fluid]({{site.url}}/tech/2016/12/01/neos-conent-elements.html)
