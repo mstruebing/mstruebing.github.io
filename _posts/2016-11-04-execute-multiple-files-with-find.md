@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: "Execute multiple commands on files with find"
 category: tech
-tags: [ 'bash', 'shell', 'linux', 'unix', 'find' ]
+tags: [ 'bash', 'shell', 'linux', 'unix', 'find', 'tutorial' ]
 ---
 
 # Hello everybody
