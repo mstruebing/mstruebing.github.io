@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: 'Example Neos Content Elements #0 Introduction'
 category: tech
-tags: [ 'NeosCMS', 'programming', 'tutorial', 'guide' ]
+tags: [ 'neoscms', 'programming', 'tutorial', 'guide' ]
 ---
 
 I have decided to make tutorials about how to create small Neos content elements and for that purpose I have set up a repository

@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: 'Example Neos Content Elements #1 Fluid Button'
 category: tech
-tags: [ 'NeosCMS', 'programming', 'tutorial', 'guide' ]
+tags: [ 'neoscms', 'programming', 'tutorial', 'guide' ]
 ---
 
 Hey guys, if you want to follow this tutorial make sure to read [this Post]({{site.url}}/tech/2016/12/01/neos-conent-elements.html) before.
