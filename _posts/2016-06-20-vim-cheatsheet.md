@@ -46,6 +46,9 @@ nnoremap - normale mode map
 inoremap - insert mode map
 vnoremap - visual mode map
 
+m<KEY> - set a mark where the cursor is located
+'<KEY> - jump right back to this mark
+
 :s - sed
 
 :r <FILE> - read a file contents into the current buffer
