@@ -47,7 +47,8 @@ inoremap - insert mode map
 vnoremap - visual mode map
 
 m<KEY> - set a mark where the cursor is located
-'<KEY> - jump right back to this mark
+'<KEY> - jump to the beginning of the line from this mark
+`<KEY> - jump directly to the mark
 
 :s - sed
 
