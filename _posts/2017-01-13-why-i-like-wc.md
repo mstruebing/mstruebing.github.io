@@ -11,9 +11,9 @@ I'm calling it word-count in my head.(Today I learned by looking wc up on Wikipe
 
 What can you do with wc? With wc you can simply count lines, words or characters of a file or string, and thats it. Nothing more or less.
 
-`wc -c` will give you the number of characters.  
-`wc -w` will give you the number of words.
-`wc -l` will give you the number of lines.
+`wc -c` will give you the number of characters.    
+`wc -w` will give you the number of words.     
+`wc -l` will give you the number of lines.     
 
 c - characters, w - words, l - lines.
 
