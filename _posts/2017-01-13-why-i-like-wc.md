@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Why I like #1 wc
+title: 'Why I like #1 wc'
 category: tech
 tags: [ 'why-i-like', 'wc' ]
 ---
@@ -15,7 +15,9 @@ What can you do with wc? With wc you can simply count lines, words or characters
 `wc -w` will give you the number of words.     
 `wc -l` will give you the number of lines.     
 
-c - characters, w - words, l - lines.
+**c** - characters, **w** - words, **l** - lines.
+
+The needed parameters are really intuitive.
 
 Examples:
 
@@ -67,8 +69,8 @@ $ wc -l **/*.java
 ```
 
 But what it is also really handy for is to analyze log files.
-Lastly I had to make tons of API calls where sometimes they could fail.
-I created a log file which was simply like `starting api call x of xx` and if an error occured I logged `ERROR: <MEANINGFULL-ERROR-MESSAGE>`
+Lastly I had to make tons of API calls which sometimes returned an error.
+I created a log file which was simply like `starting api call x of xx` and if an error occurred I logged `ERROR: <MEANINGFULL-ERROR-MESSAGE>`
 That gives me the possibility to grep for `ERROR` for example to know how many API calls had failed.
 
 ```
