@@ -8,6 +8,7 @@ tags: [ 'why-i-like', 'wc' ]
 
 Wc is a small handy tool which I use often.
 I'm calling it word-count in my head.(Today I learned by looking wc up on Wikipedia: it is actually called word count)
+It is part of the [GNU coreutils](https://www.gnu.org/software/coreutils/coreutils.html) it should be on nearly any system.
 
 What can you do with wc? With wc you can simply count lines, words or characters of a file or string, and thats it. Nothing more or less.
 
