@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Why I like wc
+title: Why I like #1 wc
 category: tech
 tags: [ 'why-i-like', 'wc' ]
 ---
