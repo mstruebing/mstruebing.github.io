@@ -1,9 +1,3 @@
 #!/usr/bin/env bash
 
-echo $PWD
-
-exit 1
-
-
-
-
+./scripts/generate-categories && ./scripts/generate-tags && git add categories && git add tags

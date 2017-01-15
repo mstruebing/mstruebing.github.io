@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-ln -sf ./pre-commit .git/hooks/ 
+cd .git/hooks
+ln -sf ../../scripts//pre-commit .
 
