@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+ln -sf ./pre-commit .git/hooks/ 
+
