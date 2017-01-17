@@ -1,16 +1,16 @@
 ---
 layout: post
 section-type: post
-title: The Fall of Giants by Ken Follett
+title: Fall of Giants by Ken Follett
 category: books
 tags: [ 'books', 'review' ]
 ---
 
 I just finished
-[The Fall of Giants](https://www.goodreads.com/book/show/7315573-fall-of-giants) by 
+[Fall of Giants](https://www.goodreads.com/book/show/7315573-fall-of-giants) by 
 [Ken Follett](https://www.goodreads.com/author/show/3447.Ken_Follett). :)
 
-[![The Fall of Giants by Ken Follett](/img/books/the-fall-of-giants.jpg)](https://www.goodreads.com/book/show/7315573-fall-of-giants)
+[![Fall of Giants by Ken Follett](/img/books/fall-of-giants.jpg)](https://www.goodreads.com/book/show/7315573-fall-of-giants)
 
 It was published in 2010 and is the first book of [The Century Trilogy](https://www.goodreads.com/series/87392-the-century-trilogy).   
 The other two's are [Winter of the World](https://www.goodreads.com/book/show/12959233-winter-of-the-world) 
