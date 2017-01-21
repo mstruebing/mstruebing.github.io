@@ -33,7 +33,7 @@ lang: "en"
 author: "Max Strübing"
 title: "{ WELCOME ~ }"
 description: "This is my blog, have fun here!"
-keywords: "Max, Strübing, mstruebing, coder, php, javascript, linux, books, reading, tech, books, tools, unix, coding, programming, germany, hamburg, computer science"
+keywords: "Max, Strübing, mstruebing, coder, php, javascript, nodejs, linux, books, reading, tech, books, tools, unix, coding, programming, germany, hamburg, computer science"
 favicon: "/img/favicon.ico"
 
 ################
@@ -123,7 +123,7 @@ timeline-description: "started coding"
 
 email: "mxstrbng@gmail.com"
 twitter: "https://twitter.com/mstrbng"
-twitterHandle: "@mstrbng"
+twitterHandle: "@mxstrbng"
 
 ################
 # Author Blurb #
@@ -144,7 +144,7 @@ social:
   - title: "github"
     url: "https://github.com/mstruebing"
   - title: "twitter"
-    url: "https://twitter.com/mstrbng"
+    url: "https://twitter.com/mxstrbng"
   - title: "xing"
     url: "https://www.xing.com/profile/Max_Struebing2?sc_o=mxb_p"
   - title: "rss"
