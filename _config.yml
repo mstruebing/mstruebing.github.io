@@ -133,7 +133,7 @@ twitterHandle: "@mxstrbng"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Max Strübing is a coder from Hamburg/Germany who loves to learn new things, likes clean code and reading."
+author_blurb: "Max Strübing, human."
 author_blurb_image: "/img/me.jpg"
 
 ##################
