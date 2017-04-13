@@ -2,7 +2,7 @@
 layout: post
 section-type: post
 title: Animal Farm by George Orwell
-category: Category
+category: books
 tags: [ 'books', 'review' ]
 ---
 
