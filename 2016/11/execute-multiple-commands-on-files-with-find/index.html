@@ -4,9 +4,12 @@
     <meta name="generator" content="Hugo 0.30" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Max Strübing</title>
-    <meta name="description" content="This is the blog of me, Max Strübing, I will blog about anything I&#39;m interested in, but mostly about technical related stuff">
-    <meta name="keywords" content="tech, ">
+    <title>Execute multiple commands on files with find | Max Strübing</title>
+    <meta name="description" content="Hello everybody In this post I will show you how you can execute multiple commands on files via find.
+Firstly how to use find:
+find -type f -iname &#34;*.extension&#34; This will find all files under the working dir with the given extension. Of course you can use other things like filesize, user who owns that file etc. But for that example I will using this.
+For example if we have multiple .">
+    <meta name="keywords" content="linux, unix, tutorial, programming">
     
     
     
@@ -16,14 +19,20 @@
   <meta name="author" content="Max Strübing">
 
 
-    <meta property="og:title" content="Max Strübing" />
-<meta property="og:description" content="This is the blog of me, Max Strübing, I will blog about anything I&#39;m interested in, but mostly about technical related stuff" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://maex.me/" />
+    <meta property="og:title" content="Execute multiple commands on files with find" />
+<meta property="og:description" content="Hello everybody In this post I will show you how you can execute multiple commands on files via find.
+Firstly how to use find:
+find -type f -iname &#34;*.extension&#34; This will find all files under the working dir with the given extension. Of course you can use other things like filesize, user who owns that file etc. But for that example I will using this.
+For example if we have multiple ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://maex.me/2016/11/execute-multiple-commands-on-files-with-find/" />
 
 
 
-<meta property="og:updated_time" content="2017-01-13T06:36:06&#43;02:00"/>
+<meta property="article:published_time" content="2016-11-04T06:36:06&#43;02:00"/>
+
+<meta property="article:modified_time" content="2016-11-04T06:36:06&#43;02:00"/>
+
 
 
 
@@ -42,12 +51,6 @@
     <meta name="theme-color" content="#000">
 
     
-      
-
-
-
-
-    
     
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -57,9 +60,7 @@ ga('send', 'pageview');
 <script async src='//www.google-analytics.com/analytics.js'></script>
 
     
-      <link href="https://maex.me/index.xml" rel="alternate" type="application/rss+xml" title="Max Strübing" />
-    
-    <link rel="canonical" href="https://maex.me/">
+    <link rel="canonical" href="https://maex.me/2016/11/execute-multiple-commands-on-files-with-find/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -173,9 +174,9 @@ article [itemprop="description"] {
   <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
     
     
-      <a itemprop="url" class="active" href="/"><span itemprop="name">Home</span></a>
+      <a itemprop="url" class="" href="/"><span itemprop="name">Home</span></a>
     
-      <a itemprop="url" class="" href="/post/"><span itemprop="name">Posts</span></a>
+      <a itemprop="url" class="active" href="/post/"><span itemprop="name">Posts</span></a>
     
       <a itemprop="url" class="" href="/categories/"><span itemprop="name">Categories</span></a>
     
@@ -192,89 +193,27 @@ article [itemprop="description"] {
 
 </header>
     <main>
-  <header>
-    <h1>Max Strübing</h1>
-  </header>
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/2017/01/why-i-like-wc/">Why I like wc</a>
-    </h2>
+  <article itemscope itemtype="http://schema.org/BlogPosting">
     
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>3 minute read</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
+<meta itemprop="name" content="Execute multiple commands on files with find">
+<meta itemprop="description" content="Hello everybody In this post I will show you how you can execute multiple commands on files via find.
+Firstly how to use find:
+find -type f -iname &#34;*.extension&#34; This will find all files under the working dir with the given extension. Of course you can use other things like filesize, user who owns that file etc. But for that example I will using this.
+For example if we have multiple .">
 
-  Published: <time datetime="2017-01-13T06:36:06&#43;02:00">13 Jan, 2017</time>
 
-</p>
-    
-  </header>
-  
-  <div itemprop="description">
-    Wc is a small handy tool which I use often. I&rsquo;m calling it word-count in my head.(Today I learned by looking wc up on Wikipedia: it is actually called word count) It is part of the GNU coreutils it should be on nearly any system.
-What can you do with wc? With wc you can simply count lines, words or characters of a file or string, and thats it. Nothing more or less.
-  </div>
-  
-    <nav class="readmore"><a itemprop="url" href="/2017/01/why-i-like-wc/">Read More&nbsp;&raquo;</a></nav>
-  
-  <meta itemprop="inLanguage" content="en-us">
-  <meta itemprop="datePublished" content="2017-01-13T06:36:06&#43;02:00">
-  <meta itemprop="dateModified" content="2017-01-13T06:36:06&#43;02:00">
-  
-</article>
+<meta itemprop="datePublished" content="2016-11-04T06:36:06&#43;02:00" />
+<meta itemprop="dateModified" content="2016-11-04T06:36:06&#43;02:00" />
+<meta itemprop="wordCount" content="330">
 
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/2016/11/you-might-not-need-scripty/">You might not need scripty</a>
-    </h2>
-    
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>2 minute read</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
 
-  Published: <time datetime="2016-11-14T06:36:06&#43;02:00">14 Nov, 2016</time>
 
-</p>
-    
-  </header>
-  
-  <div itemprop="description">
-    Because no one should be shell-scripting inside a JSON file.
- That&rsquo;s cool, but why should I use scripty? I could do this well without.
-What is the advantage of another dependency in my project?
-Recently I had to work on a project and the build were broken because of an update of scripty. That wouldn&rsquo;t be a problem if our version constraints were more strict or we would had a shrinkwrap.
-  </div>
-  
-    <nav class="readmore"><a itemprop="url" href="/2016/11/you-might-not-need-scripty/">Read More&nbsp;&raquo;</a></nav>
-  
-  <meta itemprop="inLanguage" content="en-us">
-  <meta itemprop="datePublished" content="2016-11-14T06:36:06&#43;02:00">
-  <meta itemprop="dateModified" content="2016-11-14T06:36:06&#43;02:00">
-  
-</article>
+<meta itemprop="keywords" content="linux,unix,tutorial,programming," />
 
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/2016/11/execute-multiple-commands-on-files-with-find/">Execute multiple commands on files with find</a>
-    </h2>
-    
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+    <header>
+      <h1 itemprop="headline">Execute multiple commands on files with find</h1>
+      <p class="muted">
+        <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <circle cx="16" cy="16" r="14" />
   <path d="M16 8 L16 16 20 20" />
 </svg>
@@ -285,72 +224,94 @@ Recently I had to work on a project and the build were broken because of an upda
 
   Published: <time datetime="2016-11-04T06:36:06&#43;02:00">4 Nov, 2016</time>
 
+
+      </p>
+    </header>
+    
+    
+
+    <div itemprop="articleBody">
+      
+
+<h2 id="hello-everybody">Hello everybody</h2>
+
+<p>In this post I will show you how you can execute multiple commands on files via find.</p>
+
+<p>Firstly how to use find:</p>
+
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">find -type f -iname <span style="color:#e6db74">&#34;*.extension&#34;</span></code></pre></div>
+This will find all files under the working dir with the given extension. Of course you can use other things like filesize, user who owns that file etc. But for that example I will using this.</p>
+
+<p>For example if we have multiple .txt files in subdirectories we didn&rsquo;t want to execute the command on every file.
+So if we want to print all the contents from this files we can simply write:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">find . -type f -iname <span style="color:#e6db74">&#34;*.txt&#34;</span> -exec cat <span style="color:#f92672">{}</span><span style="color:#ae81ff">\;</span></code></pre></div></p>
+
+<p>But what if we want to execute multiple commands on that files at once?</p>
+
+<p>There are two methods, one is to execute the second one only if the first one is true, the second one is to execute both regardless if the first one was successful.</p>
+
+<p>Execute both commands regardless of the first command:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">find . -name <span style="color:#e6db74">&#34;*.txt&#34;</span> -exec cp <span style="color:#f92672">{}</span> . <span style="color:#ae81ff">\;</span> -exec mv <span style="color:#f92672">{}</span> <span style="color:#f92672">{}</span>.bak <span style="color:#ae81ff">\;</span></code></pre></div>
+This will copy all files to the current directory and suffix the old ones with original filename to .bak.</p>
+
+<p>I&rsquo;m not good at thinking of examples so this time we will unzip files to the current directory and delete the zip only if the unzip was successful.</p>
+
+<p>So this would be the command:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">find . -name <span style="color:#e6db74">&#34;*.zip&#34;</span> <span style="color:#ae81ff">\(</span> -exec unzip <span style="color:#f92672">{}</span> -d . <span style="color:#ae81ff">\;</span> -o -exec true <span style="color:#ae81ff">\;</span> <span style="color:#ae81ff">\)</span> -exec rm <span style="color:#f92672">{}</span> <span style="color:#ae81ff">\;</span></code></pre></div></p>
+
+<p>Thanks four your patience, see you next time. ;)</p>
+
+<h3 id="update">Update:</h3>
+
+<p>You are also able to pipe your commands.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">find . -iname <span style="color:#ae81ff">\*</span>.c -exec sh -c <span style="color:#e6db74">&#34;cat &#39;{}&#39; | less&#34;</span> <span style="color:#ae81ff">\;</span></code></pre></div></p>
+
+<p>And of course you can use a script to do what you want:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">find . -iname <span style="color:#ae81ff">\*</span>.c -exec xyz.sh <span style="color:#f92672">{}</span> <span style="color:#ae81ff">\;</span></code></pre></div></p>
+
+<p>Disadvantages of that is that you will spawn a new shell for each file, if you have a huge amount of files this will cause a performance loss.</p>
+
+    </div>
+    
+    <footer>
+      <hr>
+      <p>
+  Published
+  
+    
+      by <span itemprop="author">Max Strübing</span>
+    
+  
+  <time itemprop="datePublished" datetime="2016-11-04T06:36:06&#43;02:00">
+    4 Nov, 2016
+  </time>
+  
+    in <span itemprop="articleSection"><a href="/categories/tech/">tech</a></span>
+  
+  
+    and tagged <a href="/tags/linux/">linux</a>, <a href="/tags/programming/">programming</a>, <a href="/tags/tutorial/">tutorial</a> and <a href="/tags/unix/">unix</a>
+  
+  using <span itemprop="wordCount">330</span> words.
 </p>
-    
-  </header>
-  
-  <div itemprop="description">
-    Hello everybody In this post I will show you how you can execute multiple commands on files via find.
-Firstly how to use find:
-find -type f -iname &#34;*.extension&#34; This will find all files under the working dir with the given extension. Of course you can use other things like filesize, user who owns that file etc. But for that example I will using this.
-For example if we have multiple .
-  </div>
-  
-    <nav class="readmore"><a itemprop="url" href="/2016/11/execute-multiple-commands-on-files-with-find/">Read More&nbsp;&raquo;</a></nav>
-  
-  <meta itemprop="inLanguage" content="en-us">
-  <meta itemprop="datePublished" content="2016-11-04T06:36:06&#43;02:00">
-  <meta itemprop="dateModified" content="2016-11-04T06:36:06&#43;02:00">
-  
-</article>
 
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/2016/06/writing-a-simple-cli-tool-in-haskell/">Writing a simple CLI-tool in Haskell</a>
-    </h2>
-    
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>14 minute read</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
+      
 
-  Published: <time datetime="2016-06-25T06:36:06&#43;02:00">25 Jun, 2016</time>
 
-</p>
-    
-  </header>
-  
-  <div itemprop="description">
-    Hello folks,
-I want to write a small tutorial on how to write a simple CLI-tool in Haskell.
-For all who did not know, Haskell is a pure functional programming language which was released in 1990. What I personally like the most is list comprehension, this is a really powerful and great feature. But there are also other really cool things like maybe for example. It is really packed with a lot of cool stuff.
-  </div>
-  
-    <nav class="readmore"><a itemprop="url" href="/2016/06/writing-a-simple-cli-tool-in-haskell/">Read More&nbsp;&raquo;</a></nav>
-  
-  <meta itemprop="inLanguage" content="en-us">
-  <meta itemprop="datePublished" content="2016-06-25T06:36:06&#43;02:00">
-  <meta itemprop="dateModified" content="2016-06-25T06:36:06&#43;02:00">
-  
-</article>
+  <aside>
+    <header>Related Content</header>
+    <ul>
+      
+        <li><a href="/2016/06/writing-a-simple-cli-tool-in-haskell/">Writing a simple CLI-tool in Haskell</a>
+        <time datetime="14M">14 minutes</time>
+      
+    </ul>
+  </aside>
 
-  
+
+    </footer>
+  </article>
 </main>
     <footer>
-  <nav>
-  <p>
-    
-    <span>Page 1 of 1</span>
-    
-  </p>
-</nav>
-
   
   <p class="muted">
     This page was generated using

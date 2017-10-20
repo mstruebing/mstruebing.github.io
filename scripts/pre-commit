@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-./scripts/generate-categories && ./scripts/generate-tags && git add categories && git add tags
