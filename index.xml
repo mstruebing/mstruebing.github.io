@@ -6,7 +6,7 @@
     <description>Recent content on Max Strübing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Oct 2017 10:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Feb 2018 18:15:29 +0100</lastBuildDate>
     
 	<atom:link href="https://maex.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +18,15 @@
       
       <guid>https://maex.me/archive/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Dont Fear the Makefile</title>
+      <link>https://maex.me/2018/02/dont-fear-the-makefile/</link>
+      <pubDate>Mon, 12 Feb 2018 18:15:29 +0100</pubDate>
+      
+      <guid>https://maex.me/2018/02/dont-fear-the-makefile/</guid>
+      <description>Introduction I&amp;rsquo;m writing this because I have the feeling that many developers underestimate the power of Makefiles and they are simply not aware of this nice and handy tool which is installed on nearly every Unix-like machine. To be honest, who have never executed a make install or something similar? Most tutorials I&amp;rsquo;ve found out there are bloated with stuff, more complex than they would have to and you have to read pages after pages to get the basics.</description>
     </item>
     
     <item>
